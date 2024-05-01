@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "719528319157",
+    "firebase_url": "https://fyp-e-com-default-rtdb.firebaseio.com",
+    "project_id": "fyp-e-com",
+    "storage_bucket": "fyp-e-com.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719528319157:android:0405191e145a24e04246fc",
+        "android_client_info": {
+          "package_name": "com.example.fypadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiMJhZzeDBz3klnrXJk-Y9-NZvOvHPywE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719528319157:android:04c97971de469a664246fc",
+        "android_client_info": {
+          "package_name": "com.example.fype_comsaler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiMJhZzeDBz3klnrXJk-Y9-NZvOvHPywE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

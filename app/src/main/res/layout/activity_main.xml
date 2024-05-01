@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".UserActivity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/name"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.40" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label"
+        android:textColor="@color/name"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.50" />
+    <!-- <LinearLayout
+         android:id="@+id/linearLayout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="200dp"
+         android:orientation="vertical"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent">
+
+         <EditText
+             android:id="@+id/db_name_register"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_marginStart="20dp"
+             android:layout_marginEnd="20dp"
+
+             android:hint="Name"
+             android:inputType="text"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+
+         <EditText
+             android:id="@+id/db_email_register"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_marginStart="20dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginEnd="20dp"
+
+             android:hint="email"
+             android:inputType="textEmailAddress"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/name_register" />
+
+         <EditText
+             android:id="@+id/db_password_register"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_marginStart="20dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginEnd="20dp"
+
+             android:hint="password"
+             android:inputType="textPassword"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/email_register" />
+         <EditText
+             android:id="@+id/db_repassword_register"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_marginStart="20dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginEnd="20dp"
+
+             android:hint="write password again"
+             android:inputType="textPassword"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/email_register" />
+
+
+     </LinearLayout>
+
+     <androidx.appcompat.widget.AppCompatButton
+         android:id="@+id/db_signup_register"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:text="Sign up"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+
+         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
